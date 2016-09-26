@@ -13,7 +13,7 @@ var articles={
     'article-two':{title:"Article Two",date:"22/09/2016",heading:"Article Two",
                 content:`hi this is article two.
                          A day will come when the people of Pakistan will go against their own government to fight terrorism. India has been successful in isolating you (Pakistan) globally, and we will intensify our efforts to make sure that you are isolated globally. The people of Pakistan should ask their leaders that India and Pakistan got freedom in the same year, but India exports software and your (Pakistan) leaders are exporting terrorists," said Prime Minister Modi, while addressing a public rally in Kozhikode`},
-    'article-three':{title:"Article Three",date:"21/09/2016",heading:"Article Three",
+    'article-three':{title:"Article Three",date:"23/09/2016",heading:"Article Three",
                 content:`hi this is article three.
                          A day will come when the people of Pakistan will go against their own government to fight terrorism. India has been successful in isolating you (Pakistan) globally, and we will intensify our efforts to make sure that you are isolated globally. The people of Pakistan should ask their leaders that India and Pakistan got freedom in the same year, but India exports software and your (Pakistan) leaders are exporting terrorists," said Prime Minister Modi, while addressing a public rally in Kozhikode`}
     
