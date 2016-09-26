@@ -5,7 +5,7 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content={
+var articleOne={
     title:"Article One",date:"21/09/2016",heading:"Article One",
     content:`hi this is article one.
              A day will come when the people of Pakistan will go against their own government to fight terrorism. India has been successful in isolating you (Pakistan) globally, and we will intensify our efforts to make sure that you are isolated globally. The people of Pakistan should ask their leaders that India and Pakistan got freedom in the same year, but India exports software and your (Pakistan) leaders are exporting terrorists," said Prime Minister Modi, while addressing a public rally in Kozhikode`
@@ -51,7 +51,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+  res.send(createTemplate(content));
 });
 
 app.get('/ui/style.css', function (req, res) {
