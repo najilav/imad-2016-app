@@ -4,7 +4,7 @@ element.innerHTML="Najila Vilakkini";
 
 var img=document.getElementById('dino');
 img.onclick= function(){
-    var interval = setInterval(moveRight,100);
+    var interval = setInterval(moveRight(),100);
 }
 
 var marginLeft=0;
