@@ -22,3 +22,13 @@ body {
 .p{
     
 }
+ .container{
+                 
+    max-width: 1000px;
+    margin: 0 auto;
+    color: grey;
+    font-family: sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
